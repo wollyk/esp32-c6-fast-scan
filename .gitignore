@@ -1,0 +1,62 @@
+# Build directory
+build/
+sdkconfig.old
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# ESP-IDF specific
+sdkconfig
+dependencies.lock
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Binary files
+*.bin
+*.hex
+*.elf
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
