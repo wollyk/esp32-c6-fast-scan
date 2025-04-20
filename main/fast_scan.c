@@ -33,8 +33,11 @@
 //#define DEFAULT_SSID CONFIG_EXAMPLE_WIFI_SSID
 //#define DEFAULT_PWD CONFIG_EXAMPLE_WIFI_PASSWORD
 
-#define DEFAULT_SSID "Waypoint"
-#define DEFAULT_PWD "Connection1234"
+//#define DEFAULT_SSID "Waypoint"
+//#define DEFAULT_PWD "Connection1234"
+
+#define DEFAULT_SSID "Ritual-5G"
+#define DEFAULT_PWD "coffee13"
 
 //#define DEFAULT_SSID "Kamal's iPhone"
 //#define DEFAULT_PWD "123456789"
@@ -92,7 +95,7 @@ static void event_handler(void* arg, esp_event_base_t event_base,
         
         // Example: Send some data to Supabase
         cJSON *root = cJSON_CreateObject();
-        cJSON_AddStringToObject(root, "device_id", "ESP32_001");
+        cJSON_AddStringToObject(root, "device_id", "ICU A Oxygen");
         cJSON_AddNumberToObject(root, "temperature", (float)35.5f);
         cJSON_AddStringToObject(root, "status", "connected");
         
